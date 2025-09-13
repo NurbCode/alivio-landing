@@ -1,0 +1,246 @@
+/* Сброс и базовые стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+/* Общие стили */
+body {
+  font-family: Lato, Roboto, sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 1370px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* --- HEADER --- */
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+}
+
+.header__logo {
+  width: 80px;
+  height: 24px;
+}
+
+/* Навигация */
+.nav__list {
+  display: flex;
+  gap: 72px;
+}
+
+.nav__link {
+  color: #292929;
+  font-size: 20px;
+  transition: 0.4s;
+}
+.nav__link:hover {
+  color: #01996d;
+}
+
+/* Кнопки */
+.button {
+  padding: 13px 50px;
+  border-radius: 4px;
+  border: solid 1px;
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.4s;
+}
+.button--outline {
+  padding: 8px;
+  border-color: #fff;
+}
+.button--outline:hover {
+  color: #01996d;
+  border-color: #01996d;
+}
+.button--primary {
+  border-color: #01996d;
+  background: #01996d;
+  color: #fff;
+}
+.button--primary:hover {
+  background: none;
+  color: #01996d;
+}
+
+/* --- WELCOME --- */
+.welcome {
+  min-height: 895px;
+  background: url("images/background.png") no-repeat center/cover;
+}
+
+.welcome__content {
+  max-width: 440px;
+}
+
+.welcome__title {
+  font-weight: 700;
+  font-size: 65px;
+  color: #01996d;
+  margin-bottom: 30px;
+  padding-top: 175px;
+}
+
+.welcome__subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 157%;
+  color: #484848;
+  margin-bottom: 48px;
+}
+
+/* --- ABOUT --- */
+.about .container {
+  margin-top: 169px;
+}
+
+.about__top {
+  display: flex;
+  align-items: center;
+  gap: 136px;
+}
+.about__top__title {
+  max-width: 584px;
+}
+.about__title p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+  color: #424242;
+}
+.about__title h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996d;
+}
+.about__top__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+  max-width: 660px;
+}
+
+/* Карточки */
+.about__bottom {
+  margin-bottom: 60px;
+}
+.about__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.about__card {
+  max-width: 390px;
+  position: relative;
+}
+.about__card h1 {
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 150%;
+  color: rgba(1, 153, 109, 0.2);
+  position: relative;
+}
+.about__card h4 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  color: #000;
+  position: absolute;
+  top: 17%;
+  left: 20%;
+}
+.about__card p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+  margin-bottom: 60px;
+}
+.card__title {
+  margin-bottom: 55px;
+}
+.about__card img {
+  border-radius: 11px;
+}
+
+/* --- STORY --- */
+.story {
+  background-color: #245852;
+  padding: 229px 0 176px;
+}
+.story .container {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+.story__left {
+  max-width: 550px;
+}
+.story__title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #fff;
+  margin-bottom: 35px;
+}
+.story__text {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+  color: #fff;
+  margin-bottom: 55px;
+}
+.story__right img {
+  height: 480px;
+}
+
+/* --- FOOTER --- */
+.footer {
+  padding: 95px;
+}
+.footer__logo {
+  margin-bottom: 60px;
+}
+.footer__list {
+  display: grid;
+  gap: 60px;
+}
