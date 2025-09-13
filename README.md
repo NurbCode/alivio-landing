@@ -8,7 +8,7 @@
 
 ## 🚀 Demo
 
-👉 [Live Demo](https://your-demo-link.com)
+👉 [Live Demo]([https://your-demo-link.com](https://nurbcode.github.io/alivio-landing/))
 
 ## 🛠 Технологии
 
@@ -24,3 +24,4 @@ project-name/
 │── style.css       # Основные стили
 │── /images         # Папка с изображениями
 ```
+
